@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-24T21:19:28.129Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15" etag="QG-lKVOlJF7sYFS3mYzG" version="13.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-24T21:59:28.713Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15" etag="hsA9AFfsv-qib0WjluuZ" version="13.7.4" type="github">
   <diagram id="5TIukd_n3g4UW3RruUCG" name="Page-1">
     <mxGraphModel dx="971" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -278,6 +278,63 @@
         </mxCell>
         <mxCell id="hdpgLRlO6QaFKLSQQ1CS-78" value="ExpensiveDrug" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="730" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hdpgLRlO6QaFKLSQQ1CS-83" value="SeasonalFluPrescriptor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="960" width="170" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="hdpgLRlO6QaFKLSQQ1CS-84" value="+ antifever_dose: float&#xa;+ antivirus_dose: float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hdpgLRlO6QaFKLSQQ1CS-83">
+          <mxGeometry y="26" width="170" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="hdpgLRlO6QaFKLSQQ1CS-85" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="hdpgLRlO6QaFKLSQQ1CS-83">
+          <mxGeometry y="60" width="170" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="hdpgLRlO6QaFKLSQQ1CS-95" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="hdpgLRlO6QaFKLSQQ1CS-83" target="hdpgLRlO6QaFKLSQQ1CS-79">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="120" y="1070" as="sourcePoint" />
+            <mxPoint x="280" y="1070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdpgLRlO6QaFKLSQQ1CS-96" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="hdpgLRlO6QaFKLSQQ1CS-89" target="hdpgLRlO6QaFKLSQQ1CS-79">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="125" y="970.0000000000002" as="sourcePoint" />
+            <mxPoint x="197.85714285714334" y="936" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdpgLRlO6QaFKLSQQ1CS-97" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="hdpgLRlO6QaFKLSQQ1CS-92" target="hdpgLRlO6QaFKLSQQ1CS-82">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="355" y="970.0000000000002" as="sourcePoint" />
+            <mxPoint x="326.2987012987014" y="936" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdpgLRlO6QaFKLSQQ1CS-89" value="CovidPrescriptor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="225" y="960" width="170" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="hdpgLRlO6QaFKLSQQ1CS-90" value="+ antifever_dose: float&#xa;+ antivirus_dose: float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hdpgLRlO6QaFKLSQQ1CS-89">
+          <mxGeometry y="26" width="170" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="hdpgLRlO6QaFKLSQQ1CS-91" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="hdpgLRlO6QaFKLSQQ1CS-89">
+          <mxGeometry y="60" width="170" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="hdpgLRlO6QaFKLSQQ1CS-92" value="CholeraPrescriptor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="960" width="170" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="hdpgLRlO6QaFKLSQQ1CS-93" value="+ rehydradation_dose: float&#xa;+ antivirus_dose: float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hdpgLRlO6QaFKLSQQ1CS-92">
+          <mxGeometry y="26" width="170" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="hdpgLRlO6QaFKLSQQ1CS-94" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="hdpgLRlO6QaFKLSQQ1CS-92">
+          <mxGeometry y="60" width="170" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="hdpgLRlO6QaFKLSQQ1CS-79" value="AbstractPrescriptor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="830" width="220" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="hdpgLRlO6QaFKLSQQ1CS-80" value="+ drug_repository: DrugRepository" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hdpgLRlO6QaFKLSQQ1CS-79">
+          <mxGeometry y="26" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="hdpgLRlO6QaFKLSQQ1CS-81" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="hdpgLRlO6QaFKLSQQ1CS-79">
+          <mxGeometry y="52" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="hdpgLRlO6QaFKLSQQ1CS-82" value="+ create_prescription(type): List[Drug]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hdpgLRlO6QaFKLSQQ1CS-79">
+          <mxGeometry y="60" width="220" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
