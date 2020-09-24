@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-24T21:19:01.433Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15" etag="MaKpV2tavIGFR47NpoON" version="13.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-24T21:19:28.129Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15" etag="QG-lKVOlJF7sYFS3mYzG" version="13.7.4" type="github">
   <diagram id="5TIukd_n3g4UW3RruUCG" name="Page-1">
     <mxGraphModel dx="971" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -276,8 +276,8 @@
         <mxCell id="hdpgLRlO6QaFKLSQQ1CS-77" value="CheapDrug" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="730" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="hdpgLRlO6QaFKLSQQ1CS-78" value="EffectiveDrug" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="730" width="80" height="20" as="geometry" />
+        <mxCell id="hdpgLRlO6QaFKLSQQ1CS-78" value="ExpensiveDrug" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="730" width="100" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
